@@ -4,8 +4,6 @@
 #  The intended application is for a small PIC micocontroller project, in which
 # integer wavetables are referenced to produce synthesized tones using an R2R ladder.
 #
-#  Of course you're free to disect and use this code for whatever you like.
-#
 
 import math
 
@@ -126,9 +124,3 @@ myBiggerWavetable = Wavetable_Generate_Unipolar( Waveform_Wastooth, 32, 64 )
 
 # Print myBiggerWavetable as a list of hexadecimal numbers.
 Wavetable_Print_Hexadecimal( myBiggerWavetable )
-
-#
-#  If you're interested in learning more about oscillators and wavetables,
-# 'https://en.wikibooks.org/wiki/Sound_Synthesis_Theory/Oscillators_and_Wavetables'
-# has a lot of valuable information regarding both; including implementations and the math behind each waveform.
-#
